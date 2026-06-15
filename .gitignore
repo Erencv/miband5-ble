@@ -1,0 +1,26 @@
+# --- secrets / personal (NEVER commit) ---
+# auth_key.txt = your band's secret key; .band_address = your device address
+auth_key.txt
+.band_address
+mitm_token.json
+mitm_hits.json
+mitm_devices_debug.jsonl
+
+# --- generated data / logs ---
+*.csv
+*_log.txt
+ble_log.csv
+explore_log.txt
+events_log.txt
+mitm.log
+
+# --- third-party repos (clone separately; do NOT redistribute) ---
+# gb/ = Gadgetbridge (GPLv3, reference only); huami-token/ = separate project
+gb/
+huami-token/
+
+# --- python / os ---
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
