@@ -9,6 +9,11 @@ make it vibrate, and change its settings — straight over Bluetooth LE.
 > Hobby / educational reverse-engineering project. Works with **your own** band. Not affiliated
 > with or endorsed by Xiaomi/Huami/Zepp.
 
+**Tested against:** model `XMSH10HM` · firmware `V1.0.2.66` · hardware `V0.44.17.2` ·
+protocol family *classic Huami* (`MiBand5Support → MiBand4Support → HuamiSupport`).
+Other firmware versions likely differ — auth, raw-sensor and event behavior are firmware-specific
+(see [PROTOCOL.md](PROTOCOL.md)). If you run a different firmware, please report what changed.
+
 ---
 
 ## What works
